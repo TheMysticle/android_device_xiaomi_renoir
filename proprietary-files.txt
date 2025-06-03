@@ -439,7 +439,7 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
-vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so;MODULE_SUFFIX=_vendor
 
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
