@@ -71,6 +71,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('rpcmem_alloc')
         .clear_symbol_version('rpcmem_free')
         .clear_symbol_version('rpcmem_to_fd'),
+    'vendor/lib64/camera/components/com.xiaomi.node.tracker.so': blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/lib64/libmialgoengine.so': blob_fixup()
         .add_needed('libprocessgroup_shim.so'),
     'vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so': blob_fixup()
