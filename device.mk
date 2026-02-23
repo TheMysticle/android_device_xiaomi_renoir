@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
 # Camera (MIUI)
 $(call inherit-product-if-exists, device/xiaomi/camera-renoir/miuicamera.mk)
 
+# BCR
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Display
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,qdcm_calib_data_*.xml,$(LOCAL_PATH)/qdcm/,$(TARGET_COPY_OUT_VENDOR)/etc/)
